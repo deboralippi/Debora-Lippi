@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario De inscripion</title>
+     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+</head>
+<body>
+<div id="formulario">
+    <h1>Formulario de inscripcion</h1>
+
+    <div id="nav-bar">
+      <button id="home5" ><a style="color:white;" href="Home NYSL.html" class="button">Home</button>
+       <button id="about5" ><a style="color:white;" href="About NYSL.html" class="button">About us</button>
+      <button id="contact5" ><a style="color:white; border-color: black;" href="Contact NYSL.html" class="button">Contact</button>
+      <button id="reglas5"><a style="color: white;" href="Rules NYSL.html" class="button">reglas</button>
+      <button id="games5"><a style="color: white;" href="Informacionpartidos.html" class="button">Games</button>
+      <button id="fomr5"><a style="color: white;" href="Formulario inscripion.html" class="button">Form</button>
+  
+  </div >
+  
+    <br>
+
+    <img class="logo3" src="assets/img/logo.png" alt="logo">
+    <h2></h2>
+
+    <br>
+    <br>
+    <br>
+
+    <form method="POST">
+      <fieldset>
+        <legend  style="color: black;"><strong>Datos Personales del Jugador</strong></legend>
+       
+        <div class="grid_container">
+         
+          <div><p>Nombres:
+            <input type="text" name="nombre" size="40" placeholder="Escriba su Nombre">
+          </p></div>
+         
+          <div><p>Apellidos:
+            <input type="text" name="apellidos" size="40" placeholder="Escriba sus dos apellidos">
+          </p></div>
+        
+          <div><p>Direccion:
+            <input type="text" name="direccion" size="40" placeholder="Escriba su direccion">
+          </p></div>
+        
+          <div><p>Ciudad:
+            <input type="text" name="ciudad" size="42" placeholder="Escriba su ciudad">
+          </p></div>
+          
+          <div><p>Codigo Postal:
+            <input type="text" name="codigo postal" size="36" placeholder="Escriba codigo postal">
+          </p></div>
+        
+          <div><p>Fecha Nacimiento: <input type="date" name="fecha"></p></div>
+    
+         <div><p>»Sexo:
+            <input type="radio" name="hmo" value="h" required> Hombre
+            <input type="radio" name="hmo" value="m" required> Mujer<br></p></div>
+      
+          </div>
+          </fieldset>
+
+      <fieldset>
+        <legend style="color: black;"><strong>Datos Generales Jugador</strong></legend>
+        <div class="grid_container">     
+        <div><p id="txt"><strong>Grado Escolar:</strong><br><br>
+        <input type="radio" name="boton" value="1">Pre-Esolar<br>
+        <input type="radio" name="boton" value="2">1er Grado<br>
+        <input type="radio" name="boton" value="3">2do Grado<br>
+        <input type="radio" name="boton" value="4">3cer Grado<br>
+        <input type="radio" name="boton" value="5">4to Grado<br>
+        <input type="radio" name="boton" value="6">5to Grado<br>
+        <input type="radio" name="boton" value="7">6to Grado<br>
+        </p></div>
+        
+    <div><p id="txt"><strong>»¿De que escuela vives mas cerca?</strong><br><br>
+      ~Escuela más cercana:<br><br>
+<input type="radio" name="boton" value="1">AJ Katzenmaier<br>
+<input type="radio" name="boton" value="2">Greenbay<br>
+<input type="radio" name="boton" value="3">Howard A Yeager<br>
+<input type="radio" name="boton" value="1">Marjorie P Hart<br>
+<input type="radio" name="boton" value="2">North Elementary<br>
+<input type="radio" name="boton" value="3">South Elementary<br><br>
+</p></div>
+
+
+          <div><p id="txt"><strong>»Seleccione su Talla</strong></p>
+          <select name="Seleccione Talla">
+            <option selected>Talla Uniforme</option>
+            <optgroup label="Talla Niño">
+              <option value="1">Niño-P</option>
+              <option value="2">Niño-M</option>
+              <option value="3">Niño-G</option>
+            </optgroup>
+            <optgroup label="Talla Grande">
+              <option value="4">S</option>
+              <option value="5">M</option>
+              <option value="6">G</option>
+              <option value="7">XG</option>
+            </optgroup>
+          </select></div>
+        </div>
+        </fieldset>
+
+          <div>
+              <br><br>
+              
+          <h3>»Permiso para jugar</h3>
+
+              <p id="permiso">Yo, el padre o tutor del solicitante de registro menor,
+                 estoy de acuerdo en que el solicitante de registro y yo
+                 acataremos todas las reglas de la Northside Youth Soccer
+                 League (NYSL). Al reconocer la posibilidad de lesiones 
+                 físicas asociadas al fútbol y en consideración a la"Liga"
+                 que acepta al solicitante de registro para sus programas y
+                 actividades de fútbol, Por la presente libero y descargo
+                 a NYSL, sus empleados y personal asociado y voluntarios,
+                 incluyendo las instalaciones utilizadas para prácticas 
+                 y juegos, contra cualquier reclamo por o en nombre del
+                 solicitante de registro como resultado de la participación
+                 del solicitante del programa a o en el transporte desde o hacia
+                 las actividades patrocinadas por NYSL.
+                Al firmar a continuación, acuerdo y autorizo lo anterior.
+                 Además, al firmar a continuación, reconozco que he leído la política de cancelación y acepto sus términos.</p>
+
+
+          </div>
+          <p id="txt"><strong>*Selecciona una opcion</strong></p>
+    <select name="autorizacion">
+    <option selected>selecciona</option>
+    <optgroup label="autorizacion">
+      <option value="1">Autorizo</option>
+      <option value="2">No Autorizo</option>
+    </optgroup>
+
+    
+
+    <input type="button" value="Enviar">
+          
+      </form>
+
+
+    </div>    
+</body>
+</html>

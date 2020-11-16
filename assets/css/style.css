@@ -1,0 +1,354 @@
+
+body{
+    padding: 0px;
+    margin: 100px;
+}
+
+#tabla,td,th,tr{
+    margin: auto;
+    border: solid 3px silver ;
+    border-collapse: collapse;
+    font-size: 15px;
+    color: black;
+}
+th,td{
+    padding: 10px;
+}
+
+#nav-bar{
+    margin-left: 800px;
+    display: flex;
+}
+#home{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+#home1{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+#home2{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+#home3{
+    background-color: chartreuse;
+    box-shadow: 3px 3px;
+}
+#home4{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+#home5{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+
+#about{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+#about1{
+    background-color: chartreuse;
+    box-shadow: 3px 3px;
+}
+#about2{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+#about3{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+#about4{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+#about5{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+
+#contact{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+#contact1{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+#contact2{
+    background-color: chartreuse;
+    box-shadow: 3px 3px;
+}
+#contact3{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+#contact4{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+#contact5{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+#reglas{
+    background-color: chartreuse;
+    box-shadow: 3px 3px;
+}
+#reglas1{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+#reglas2{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+#reglas3{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+#reglas4{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+#reglas5{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+#games5{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+
+#games4{
+    background-color: chartreuse;
+    box-shadow: 3px 3px;
+}
+#games1{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+#games3{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+#games2{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+#games{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+#fomr1{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+#fomr2{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+#fomr3{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+#fomr4{
+    background-color: mediumblue;
+    box-shadow: 3px 3px;
+}
+#fomr5{
+    background-color: chartreuse;
+    box-shadow: 3px 3px;
+}
+
+
+.contedenor{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+}
+img{
+    width: 100%;
+    padding: 4px;
+    height: 290px;
+}
+h1{
+    color: black;
+    text-align: center;
+    font-style: inherit;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    font-style: normal;
+}
+h3{
+    color: black;
+    margin-left: 100px;
+}
+
+p{
+    color: black;
+    text-align: center;
+    top: 0%;
+}
+p1{
+    font-weight: bold;
+}
+#h31{
+    color: black;
+    font-weight: bold;
+    margin-left: 100px;
+
+}
+#texto1{
+    text-align: justify;
+    color: black;
+    margin-left: 230px;
+    margin-right: 330px;
+    list-style-type: square;
+}
+li{
+    color: black;
+    margin-left: 230px;
+    margin-right: 330px;
+    text-align: justify;
+    
+}
+#letra{
+    list-style-type: lower-alpha;
+    color: black;
+    text-align: justify;
+}
+#tx2{
+    color: black;
+}
+#texto2{
+    text-align: justify;
+    color: black;
+    margin-left: 230px;
+    margin-right: 330px;
+    list-style-type: circle;
+
+}
+.logo{
+    position:absolute;
+    top: 98%;
+    height: 130px;
+    width: 130px;
+}
+#parrafo{
+    color: black;
+    margin-left: 130px;
+    text-align: justify;
+    }
+
+    h4{
+        background-color: #ffffff;
+        color: black;
+        text-align: center;
+        border-style: solid;
+        border-color: black;
+        width: 100%;
+    }
+
+    #titulo{
+        margin-left: 100px;
+        color: black;
+        text-align: justify;
+        }
+
+        #texto{
+            
+            float :right;
+            display: inline;
+        }
+#gamestxt{
+    text-align: justify;
+    width: 600px;
+    }
+
+.logo2{
+
+        position:absolute;
+        top: 18%;
+        height: 130px;
+        width: 130px;
+    }
+
+.game{
+    text-align: left;
+}
+.div{
+    color: black;
+
+
+}
+#permiso{
+    color: black;
+    text-align: justify;
+}
+.logo3{
+
+    position:absolute;
+    top: 15%;
+    height: 130px;
+    width: 130px;
+}
+
+#txt{
+
+    margin-left: 7px;
+    text-align: left;
+    color: black;
+}
+
+#mapa{
+    
+    justify-content: center;
+    margin-left: 370px;
+}
+.grid_container {
+
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5px;
+    padding: 5px;
+}
+
+.grid_container > div {
+
+    text-align: center;
+    font-size: 15px;
+}
+
+@media (max-width:600px){
+
+#formulario
+
+     .grid_container{
+
+        display:grid;
+        grid-template-columns: auto;
+        padding: 5px;
+        text-align: center;
+        font-size: 15px
+    }
+
+    .logo3{
+
+        position:absolute;
+        top: 35px;
+        height: 130px;
+        width: 130px;
+        margin-left: -90px;
+    }
+
+    #nav-bar{
+        margin-left: 90px;
+        display: flex;
+    }
+}
